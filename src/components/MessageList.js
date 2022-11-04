@@ -6,10 +6,11 @@ const MessageList =({messages}) =>(
     <section id='messages-list'>
         <ul>
             {messages.map(message =>(
-                <Message key={message.id}
+                <li><Message key={message.id}
                              {...message}
                 />
-            ))}
+                </li>
+            ))}<br/>
         </ul>
     </section>
 )

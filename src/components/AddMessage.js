@@ -12,6 +12,7 @@ const AddMessage =(props)=>{
                 }
             }}
             type='text'
+            placeholder='Type a new message'
             ref={(node) =>{
                 input = node
             }}

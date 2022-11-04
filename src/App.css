@@ -32,6 +32,10 @@ body{
  #messages-list{
    padding: 5px 0 0 5px;
  }
+ #message-list-style{
+  list-style-type:none;
+
+ }
  #sidebar{
    grid-area: sidebar;
    padding: 5px 0 0 5px;

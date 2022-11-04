@@ -7,7 +7,7 @@ import createSagaMiddleware from 'redux-saga';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {addUser} from './actions';
+//import {addUser} from './actions';
 import chat from './reducers';
 import handleNewMessage from './sagas';
 import setupSocket from './sockets';

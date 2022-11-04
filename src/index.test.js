@@ -1,5 +1,5 @@
 import { addMessage, addUser } from "./actions";
-import * as types from '../constants/ActionTypes';
+import * as types from './constants/ActionTypes';
 
 describe('adding a message',()=>{
     it('should create an action to add a message with id 0',() => {
@@ -10,7 +10,7 @@ describe('adding a message',()=>{
             author : 'Hari',
             id :0
         }
-        expect(addMessage(message)).toEqual(action)
+        expect(addMessage(message)).toEqual(action.message)
     })
 })
 describe('adding a second message',()=>{
@@ -22,7 +22,7 @@ describe('adding a second message',()=>{
             author : 'Subha',
             id :1
         }
-        expect(addMessage(message)).toEqual(action)
+        expect(addMessage(message)).toEqual(action.message)
     })
 })
 describe('adding a user',()=>{

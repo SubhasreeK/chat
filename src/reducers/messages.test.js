@@ -2,7 +2,7 @@ import messages from './messages';
 import * as types from '../constants/ActionTypes';
 
 describe('Message reducer',() =>{
-    it('should return the initial state, empty ',()=>{
+    it('should return the initial state, empty',()=>{
         expect(messages(undefined,{})).toEqual([])
     })
 
@@ -35,7 +35,7 @@ describe('Message reducer',() =>{
       ).toEqual([
           {
               message :'Hey',
-              author : 'Me'
+              author : 'Subha'
           },
           {
               message: 'Hey again',
